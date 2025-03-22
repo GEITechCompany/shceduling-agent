@@ -1,0 +1,15 @@
+{
+  "name": "scheduling-gpt",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd scheduling-gpt-frontend && npm start",
+    "test-app": "./create-test-app.sh",
+    "debug": "./start-app.sh"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15"
+  }
+}

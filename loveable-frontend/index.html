@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduling Agent</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <div class="max-w-2xl mx-auto">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h1 class="text-2xl font-bold text-purple-600 mb-6">AI Scheduling Assistant</h1>
+                
+                <!-- Chat Messages Container -->
+                <div id="chatMessages" class="h-96 overflow-y-auto mb-4 p-4 bg-gray-50 rounded-lg">
+                    <!-- Messages will be inserted here -->
+                </div>
+
+                <!-- Input Form -->
+                <form id="chatForm" class="flex gap-2">
+                    <input type="text" 
+                           id="messageInput" 
+                           class="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500"
+                           placeholder="Type your message here..."
+                           required>
+                    <button type="submit" 
+                            class="px-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">
+                        Send
+                    </button>
+                </form>
+
+                <!-- Quick Actions -->
+                <div class="mt-4 flex flex-wrap gap-2">
+                    <button onclick="sendQuickAction('Show available services')" 
+                            class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors">
+                        Available Services
+                    </button>
+                    <button onclick="sendQuickAction('Show my appointments')" 
+                            class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors">
+                        My Appointments
+                    </button>
+                    <button onclick="sendQuickAction('Check availability')" 
+                            class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors">
+                        Check Availability
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 

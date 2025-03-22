@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduling Assistant | Window Cleaning Services</title>
+    <meta name="description" content="Schedule your window cleaning, gutter cleaning, pressure washing, and solar panel cleaning services with our AI-powered scheduling assistant.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Open Graph tags for better social sharing -->
+    <meta property="og:title" content="Scheduling Assistant | Window Cleaning Services">
+    <meta property="og:description" content="Schedule your window cleaning and maintenance services with our AI-powered scheduling assistant.">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-calendar-check"></i>
+                <h1>Scheduling Assistant</h1>
+            </div>
+            <p>Let us help you schedule your service</p>
+        </header>
+        
+        <main>
+            <div class="chat-container">
+                <!-- Settings panel -->
+                <div class="settings-panel" id="settingsPanel">
+                    <h3><i class="fas fa-cog"></i> API Settings</h3>
+                    <div class="settings-form">
+                        <div class="form-group">
+                            <label for="apiUrl">API URL:</label>
+                            <input type="text" id="apiUrl" placeholder="https://your-api-url.com/api/chat">
+                        </div>
+                        <div class="form-group">
+                            <label for="apiKey">API Key (if required):</label>
+                            <input type="password" id="apiKey" placeholder="Optional">
+                        </div>
+                        <div class="actions">
+                            <button id="saveSettings" class="btn">Save Settings</button>
+                            <button id="closeSettings" class="btn secondary">Cancel</button>
+                        </div>
+                        <div class="help-text">
+                            <p>By default, the app will connect to <code>http://localhost:5001/api/chat</code>.</p>
+                            <p>Change this to your deployed API endpoint.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-header">
+                    <h2>Chat with our AI Assistant</h2>
+                    <button id="settingsButton" title="Settings"><i class="fas fa-cog"></i></button>
+                </div>
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message assistant">
+                        <div class="message-content">
+                            <p>Welcome to our scheduling assistant! How can I help you today?</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chat-input">
+                    <form id="messageForm">
+                        <input type="text" id="userMessage" placeholder="Type your message here..." autocomplete="off">
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="service-info">
+                <h2>Our Services</h2>
+                <div class="service-cards">
+                    <div class="service-card">
+                        <i class="fas fa-window-maximize"></i>
+                        <h3>Window Cleaning</h3>
+                        <p>$150-300 depending on size</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-water"></i>
+                        <h3>Gutter Cleaning</h3>
+                        <p>$100-200</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-spray-can"></i>
+                        <h3>Pressure Washing</h3>
+                        <p>$200-400</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-solar-panel"></i>
+                        <h3>Solar Panel Cleaning</h3>
+                        <p>$250-500</p>
+                    </div>
+                </div>
+                
+                <div class="business-hours">
+                    <h3><i class="far fa-clock"></i> Business Hours</h3>
+                    <p>Monday-Friday: 9 AM - 5 PM</p>
+                </div>
+
+                <div class="contact-info">
+                    <h3><i class="fas fa-phone"></i> Contact Us</h3>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: contact@windowcleaning.com</p>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <p>&copy; 2025 Scheduling GPT. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 

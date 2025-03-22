@@ -1,0 +1,58 @@
+2025-03-20 21:51:32,917 - INFO - Starting scheduled sync...
+2025-03-20 21:51:32,925 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-20 21:51:33,180 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/clients?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 21:51:34,102 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/services?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 21:51:34,509 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/locations?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 21:51:35,151 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/schedules?select=%2A%2C%20clients%28name%29%2C%20services%28name%29 "HTTP/1.1 200 OK"
+2025-03-20 21:51:35,747 - INFO - Sync completed successfully!
+2025-03-20 21:51:35,748 - INFO - Auto-sync started. Will sync every 15 minutes.
+2025-03-20 21:51:35,748 - INFO - Press Ctrl+C to stop.
+2025-03-20 22:06:33,571 - INFO - Starting scheduled sync...
+2025-03-20 22:06:33,588 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-20 22:06:33,935 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/clients?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:06:35,659 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/services?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:06:36,066 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/locations?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:06:36,987 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/schedules?select=%2A%2C%20clients%28name%29%2C%20services%28name%29 "HTTP/1.1 200 OK"
+2025-03-20 22:06:37,712 - INFO - Sync completed successfully!
+2025-03-20 22:21:38,333 - INFO - Starting scheduled sync...
+2025-03-20 22:21:38,358 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-20 22:21:38,913 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/clients?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:21:40,816 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/services?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:21:41,948 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/locations?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:21:42,613 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/schedules?select=%2A%2C%20clients%28name%29%2C%20services%28name%29 "HTTP/1.1 200 OK"
+2025-03-20 22:21:43,251 - INFO - Sync completed successfully!
+2025-03-20 22:36:43,891 - INFO - Starting scheduled sync...
+2025-03-20 22:36:43,901 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-20 22:36:44,386 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/clients?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:36:46,501 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/services?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:36:47,702 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/locations?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:36:48,542 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/schedules?select=%2A%2C%20clients%28name%29%2C%20services%28name%29 "HTTP/1.1 200 OK"
+2025-03-20 22:36:49,075 - INFO - Sync completed successfully!
+2025-03-20 22:51:49,800 - INFO - Starting scheduled sync...
+2025-03-20 22:51:49,817 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-20 22:51:50,285 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/clients?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:51:52,473 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/services?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:51:53,866 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/locations?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 22:51:54,691 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/schedules?select=%2A%2C%20clients%28name%29%2C%20services%28name%29 "HTTP/1.1 200 OK"
+2025-03-20 22:51:55,252 - INFO - Sync completed successfully!
+2025-03-20 23:06:55,878 - INFO - Starting scheduled sync...
+2025-03-20 23:06:55,895 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-20 23:06:56,347 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/clients?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 23:06:58,413 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/services?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 23:06:58,890 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/locations?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 23:06:59,832 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/schedules?select=%2A%2C%20clients%28name%29%2C%20services%28name%29 "HTTP/1.1 200 OK"
+2025-03-20 23:07:00,415 - INFO - Sync completed successfully!
+2025-03-20 23:22:01,141 - INFO - Starting scheduled sync...
+2025-03-20 23:22:01,159 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-20 23:22:01,638 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/clients?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 23:22:04,122 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/services?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 23:22:04,712 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/locations?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 23:22:07,375 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/schedules?select=%2A%2C%20clients%28name%29%2C%20services%28name%29 "HTTP/1.1 200 OK"
+2025-03-20 23:22:07,899 - INFO - Sync completed successfully!
+2025-03-20 23:37:08,640 - INFO - Starting scheduled sync...
+2025-03-20 23:37:08,656 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-20 23:37:09,132 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/clients?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 23:37:12,145 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/services?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 23:37:13,260 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/locations?select=%2A "HTTP/1.1 200 OK"
+2025-03-20 23:37:14,228 - INFO - HTTP Request: GET https://fhuxuwgvlgtmubxvsnil.supabase.co/rest/v1/schedules?select=%2A%2C%20clients%28name%29%2C%20services%28name%29 "HTTP/1.1 200 OK"
+2025-03-20 23:37:14,738 - INFO - Sync completed successfully!
