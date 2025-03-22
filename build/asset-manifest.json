@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shceduling-agent/static/css/main.e6c13ad2.css",
+    "main.js": "/shceduling-agent/static/js/main.39feb539.js",
+    "static/js/453.0157a52c.chunk.js": "/shceduling-agent/static/js/453.0157a52c.chunk.js",
+    "index.html": "/shceduling-agent/index.html",
+    "main.e6c13ad2.css.map": "/shceduling-agent/static/css/main.e6c13ad2.css.map",
+    "main.39feb539.js.map": "/shceduling-agent/static/js/main.39feb539.js.map",
+    "453.0157a52c.chunk.js.map": "/shceduling-agent/static/js/453.0157a52c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.39feb539.js"
+  ]
+}
